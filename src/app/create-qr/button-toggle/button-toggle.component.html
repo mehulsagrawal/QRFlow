@@ -1,0 +1,17 @@
+<div class="segmented-container">
+    <button 
+      class="segmented-button" 
+      [class.active]="isActive" 
+      [disabled]="isActive"
+      (click)="toggleButton(true)">
+      Static 
+    </button>
+    <button 
+      class="segmented-button" 
+      [class.active]="!isActive" 
+      [disabled]="!isActive"
+      (click)="toggleButton(false)">
+      Dynamic
+    </button>
+  </div>
+  
