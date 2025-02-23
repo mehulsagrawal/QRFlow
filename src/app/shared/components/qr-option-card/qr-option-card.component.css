@@ -1,0 +1,50 @@
+.style-0 {
+    display: flex;
+    max-width: 75%;
+    flex: 0 0 75%;
+    width: 100%;
+    padding: 0px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: 60px auto;
+    border-radius: 4px;
+    transition: 0.15s ease-in-out;
+    cursor: pointer;
+}
+
+.style-1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 23%;
+    background-color: rgb(240, 247, 254);
+    border-radius: 4px 0px 0px 4px;
+    color: rgb(37, 149, 255);
+    font-size: 30px;
+}
+
+.style-2 {
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 900;
+    display: block;
+    line-height: 30px;
+}
+
+.style-3 {
+    padding: 16px;
+    width: 77%;
+}
+
+.style-4 {
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    color: rgb(22, 33, 47);
+    min-width: 200px;
+}
+
+.style-5 {
+    color: rgb(94, 105, 128);
+    max-width: 280px;
+}
