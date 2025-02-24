@@ -10,6 +10,11 @@
     text-align: left;
     color: #333;
 }
+
+p strong a {
+    text-decoration: none;
+}
+
 .style-1 {
     font-size: 22px;
     font-weight: bold;

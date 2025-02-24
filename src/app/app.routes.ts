@@ -10,14 +10,15 @@ import { CallPageComponent } from './create-qr/call-page/call-page.component';
 import { SmsPageComponent } from './create-qr/sms-page/sms-page.component';
 
 export const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' }, // Default to home
-  { path: 'home', component: HomeComponent },
-  { path: 'create-qr', component: CreateQrComponent },
-  { path: 'view-qr', component: ViewQrComponent },
-  { path: 'url-link', component: UrlPageComponent },
-  { path: 'mobile-app', component: MobileAppPageComponent },
-  { path: 'image', component: ImagePageComponent },
-  { path: 'email', component: EmailPageComponent },
-  { path: 'call', component: CallPageComponent },
-  { path: 'sms', component: SmsPageComponent },
+    { path: '', redirectTo: 'home', pathMatch: 'full' }, // Default to home
+    { path: 'home', component: HomeComponent },
+    { path: 'create-qr', component: CreateQrComponent }, 
+    { path: '', redirectTo: 'url-link', pathMatch: 'full' }, // Default to UrlPageComponent
+            { path: 'url-link', component: UrlPageComponent },
+            { path: 'mobile-app', component: MobileAppPageComponent },
+            { path: 'image', component: ImagePageComponent },
+            { path: 'email', component: EmailPageComponent },
+            { path: 'call', component: CallPageComponent },
+            { path: 'sms', component: SmsPageComponent },
+    { path: 'view-qr', component: ViewQrComponent }
 ];

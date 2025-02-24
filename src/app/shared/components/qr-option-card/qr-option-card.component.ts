@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { Input } from '@angular/core';
-
+import { ButtonToggleComponent } from '../../../create-qr/button-toggle/button-toggle.component';
 @Component({
   selector: 'app-qr-option-card',
-  imports: [],
+  imports: [ButtonToggleComponent],
   templateUrl: './qr-option-card.component.html',
   styleUrl: './qr-option-card.component.css'
 })

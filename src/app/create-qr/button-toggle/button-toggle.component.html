@@ -3,14 +3,16 @@
       class="segmented-button" 
       [class.active]="isActive" 
       [disabled]="isActive"
-      (click)="toggleButton(true)">
+      (click)="toggleButton(true)"
+      [routerLink]="['static']">
       Static 
     </button>
     <button 
       class="segmented-button" 
       [class.active]="!isActive" 
       [disabled]="!isActive"
-      (click)="toggleButton(false)">
+      (click)="toggleButton(false)"
+      [routerLink]="['dynamic']">
       Dynamic
     </button>
   </div>
