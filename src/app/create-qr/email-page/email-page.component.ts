@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { FooterComponent } from '../footer/footer.component';
 
 @Component({
   selector: 'app-email-page',
-  imports: [],
+  imports: [FooterComponent],
   templateUrl: './email-page.component.html',
   styleUrl: './email-page.component.css'
 })
