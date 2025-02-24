@@ -1,0 +1,37 @@
+.call-information {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #6c757d; /* Gray color */
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #f8f9fa; /* Light gray */
+}
+
+input::placeholder {
+    color: #aaa;
+}
