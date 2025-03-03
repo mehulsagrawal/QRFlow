@@ -3,9 +3,12 @@
     <p class="subtitle">Specify details of the text (SMS) to link your QR code to</p>
 
     <label for="phone-number">Phone number</label>
-    <input type="text" id="phone-number" placeholder="Enter phone number">
+    <input type="text" id="phone-number" placeholder="Enter phone number" [(ngModel)]="urlObj.campaign.phone_sms.phone">
 
     <label for="message">Message</label>
-    <textarea id="message" placeholder="Enter Message"></textarea>
+    <textarea id="message" placeholder="Enter Message" [(ngModel)]="urlObj.campaign.phone_sms.body"></textarea>
 </div>
-<app-footer />
+<div class="footer-card">
+    <button class="btn back-btn" (click)="goBack()">Back</button>
+    <button class="btn next-btn">Next</button>
+</div>

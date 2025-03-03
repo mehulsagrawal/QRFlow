@@ -1,4 +1,6 @@
+import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
+import { inject } from '@angular/core';
 
 @Component({
   selector: 'app-footer',
@@ -7,6 +9,8 @@ import { Component } from '@angular/core';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
+
+
   goBack() {
     let pathArray = window.location.pathname.split('/');  // Get URL parts
     if (pathArray.length > 1) {

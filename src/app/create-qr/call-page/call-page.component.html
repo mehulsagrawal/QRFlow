@@ -3,6 +3,9 @@
     <p class="subtitle">Specify details of the phone number to link your QR code to</p>
 
     <label for="phone-number">Phone number</label>
-    <input type="text" id="phone-number" placeholder="Enter phone number">
+    <input type="text" id="phone-number" placeholder="Enter phone number" [(ngModel)]="phoneNumber">
 </div>
-<app-footer />
+<div class="footer-card">
+    <button class="btn back-btn" (click)="goBack()">Back</button>
+    <button class="btn next-btn" (click)="onSave()" [disabled]="!phoneNumber">Next</button>
+</div>

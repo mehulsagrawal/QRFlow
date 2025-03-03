@@ -5,6 +5,9 @@
     <label for="url">Enter or paste URL 
         <span class="info-icon">ℹ️</span>
     </label>
-    <input type="text" id="url" placeholder="https://www.example.com">
+    <input type="text" id="url" [(ngModel)]="urlObj.campaign.custom_url">
 </div>
-<app-footer />
+<div class="footer-card">
+    <button class="btn back-btn" (click)="goBack()">Back</button>
+    <button class="btn next-btn" (click)="onSave()">Next</button>
+</div>

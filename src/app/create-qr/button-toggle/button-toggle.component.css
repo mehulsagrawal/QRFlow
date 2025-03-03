@@ -1,8 +1,6 @@
 /* Button Container */
 .segmented-container {
     display: flex;
-    top: 100px;
-    right: 20px;
     position: absolute;
     border: 1px solid #ccc;
     border-radius: 6px;
